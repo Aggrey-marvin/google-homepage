@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* All anchor tags(Redesign) */
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* Option Buttons */
+.option {
+    border: none;
+    background-color: #800080;
+    color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/* Icon */
+.fas {
+    color: #333;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#left a {
+   padding: 10px 5px;
+   margin: 10px 5px;
+}
+
+#right a {
+    padding: 10px 5px;
+    margin: 10px 5px;
+ }
+
+ /* Main-doc */
+ #main-doc {
+     margin-top: 200px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+#google-image {
+    width: 250px;
+}
+
+/* Searchbar */
+#searchbar {
+    margin-top: 20px;
+    width: 450px;
+    height: 30px;
+    border-radius: 18px;
+    border: 0.1pt solid #333;
+}
+
+/* Text under searchbar */
+#random-text {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+/* other */
+.other {
+    padding: 10px;
+    margin: 10px 5px;
+    background-color: #ccc;
+}
+
+#footer {
+    background-color: #ccc;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link {
+    padding: 10px;
+    margin: 20px 10px;
+}
+
