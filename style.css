@@ -1,7 +1,9 @@
+/* Reset */
 * {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    font-size: 13px;
 }
 
 /* All anchor tags(Redesign) */
@@ -10,27 +12,47 @@ a {
     color: #333;
 }
 
+/* Hover effects */
+#navbar #left a:hover, #navbar #right #one:hover, #navbar #right #two:hover {
+    text-decoration: underline;
+}
+
+.fas:hover {
+    background-color: #F5F5F5;
+}
+
+#searchbar:hover, .other:hover {
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+#languages a:hover {
+    text-decoration: underline;
+}
+
 
 /* Option Buttons */
 .option {
     border: none;
-    background-color: #800080;
+    background-color: #000080;
     color: #fff;
     padding: 20px;
     margin: 10px;
     border-radius: 50%;
+    
 }
 
 /* Icon */
 .fas {
-    color: #333;
+    padding: 10px;
+    border-radius: 50%;
+    color: #B2BEB5;
 }
 
 /* Navbar */
 #navbar {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
+    margin: 20px;
 }
 
 #left a {
@@ -39,29 +61,38 @@ a {
 }
 
 #right a {
-    padding: 10px 5px;
-    margin: 10px 5px;
+    padding: 10px;
+    margin: 5px;
  }
 
  /* Main-doc */
  #main-doc {
-     margin-top: 200px;
+     margin-top: 230px;
      display: flex;
      flex-direction: column;
      align-items: center;
  }
 
 #google-image {
-    width: 250px;
+    width: 272px;
 }
 
 /* Searchbar */
 #searchbar {
-    margin-top: 20px;
-    width: 450px;
-    height: 30px;
-    border-radius: 18px;
-    border: 0.1pt solid #333;
+    display: flex;
+    margin-top: 25px;
+    width:580px;
+    height: 43px;
+    border-radius: 22px;
+    border: solid 0.1px #ccc;
+    outline: none;
+    
+}
+
+#search-text {
+    width: 90%;
+    border: none;
+    outline: none;
 }
 
 /* Text under searchbar */
@@ -75,11 +106,16 @@ a {
 .other {
     padding: 10px;
     margin: 10px 5px;
-    background-color: #ccc;
+    background-color: #F5F5F5 ;
+}
+
+/* Language Section */
+#languages a {
+    color: navy;
 }
 
 #footer {
-    background-color: #ccc;
+    background-color: #F5F5F5 ;
     position:fixed;
     bottom: 0;
     left: 0;
@@ -88,9 +124,16 @@ a {
     flex-direction: column;
 }
 
+#footer-top {
+   padding: 10px;
+   border-bottom: 1px solid #ccc;
+   margin-bottom: 10px; 
+}
+
 #footer-bottom {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .footer-link {
